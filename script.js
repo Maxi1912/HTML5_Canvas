@@ -9,6 +9,7 @@ ctx.lineCap = 'round';
 ctx.lineWidth = 1;
 let hue = 0;
 let direction = true;
+ctx.globalCompositeOperation = 'multiply';
 
 let isDrawing = false;
 let lastX = 0;
